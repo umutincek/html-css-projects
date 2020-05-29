@@ -1,0 +1,241 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+h2,h3,h4 {
+    color:gray;
+}
+
+h4 {
+    letter-spacing: 7px;
+    font-weight: lighter;
+    font-size:15px;
+}
+
+#myMenu {
+    width: 60%;
+    float: right;
+    padding: 241px 0px;
+    text-align: center;
+    background: black;
+    color: silver;
+    display: none;
+}
+    #myMenu ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+        #myMenu ul li a:hover {
+            color: white;
+        }
+        
+
+
+
+.sol {
+    width: 40%;
+    float: left;
+    position: fixed;
+}
+    .sol img {
+        width: 100%;
+        min-height: 100%;
+    }
+
+.sag {
+    width: 60%;
+    float: right;
+}
+    .menu {
+        
+        opacity: 0.7;
+        position: fixed;
+        right: 5px;
+        top: 5px;
+    }
+        .menu .fa {
+            font-size: 40px;
+            padding: 15px;
+        }
+        .menu:hover {
+            opacity: inherit;
+            background-color: silver;
+            cursor: pointer;
+            color: black;
+        }
+
+    .home {
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+    }
+        .home h1 {
+            font-size:80px;
+            font-weight: normal;
+        }
+        .home p {
+            margin-top:20px;
+        }
+        .home button {
+            margin-top: 20px;
+            padding: 15px;
+            background: lightgray;
+            border:none;
+        }
+            .home button:hover {
+                background:silver;
+                cursor: pointer;
+            }
+
+    .portfolio {
+        width: 94%;
+        margin:150px auto;
+    }
+        .p_sol {
+            float: left;
+            width: 48%;
+        }
+            .p_sol img {
+                width:100%;
+                margin-top:10px;
+            }
+        .p_sag {
+            float: right;
+            width: 48%;
+        }
+            .p_sag img {
+                width:100%;
+                margin-top:10px;
+            }
+
+    .about {
+        width: 94%;
+        margin: 20px auto;
+    }
+        .a_box {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: lightgray;
+            color: white;
+        }
+            .b_95 {
+                width: 95%;
+                height: 30px;
+                background: gray;
+            }
+            .b_85 {
+                width: 85%;
+                height: 30px;
+                background: gray;
+            }
+            .b_80 {
+                width: 80%;
+                height: 30px;
+                background: gray;
+            }
+
+        .a_text {
+            width: 25%;
+            float: left;
+            background: gray;
+            color: white;
+            height: 120px;
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 40px;
+        }
+        .about button {
+            margin-top: 20px;
+            padding: 15px;
+            background: lightgray;
+            border:none;
+        }
+            .about button:hover {
+                background:silver;
+                cursor: pointer;
+            }
+       
+        .a_img {
+            width:80%;
+            margin-top:30px;
+        }
+            .a_img img {
+                width: 15%;
+                border-radius: 50%;
+                float: left;
+            }
+            .a_img span {
+                margin-left:10px;
+                text-align: justify;
+            }
+
+        .a_sell_left {
+            width: 48%;
+            float: left;
+            text-align: center;
+        }
+            .a_sell_right:hover,.a_sell_left:hover {
+                box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+            }
+            .a_sell_right ul,.a_sell_left ul {
+                width: 100%;
+            }
+            .a_sell_right ul li,.a_sell_left ul li {
+                border:0.5px solid lightgray;
+            }
+            .sm {
+                padding:16px;
+                color:gray;
+            }
+            .xl {
+                padding:24px;
+                color: white;
+                background: gray;
+                font-size: 20px;
+            }
+            .xxl {
+                padding:32px;
+            }
+                .xxl h2 {
+                    font-size:25px;
+                }
+                .xxl span {
+                    opacity: 0.8;
+                    color:gray;
+                    font-size: 12px;
+                }
+            .xbtn {
+                padding:24px;
+                background: lightgray;
+            }
+                .xbtn button {
+                    padding:13px 20px;
+                    margin:auto;
+                    background: white;
+                }
+                    .xbtn button:hover {
+                        background: black;
+                        color: white;
+                    }
+        .a_sell_right {
+            width: 48%;
+            float: right;
+            text-align: center;
+        }
+
+.contact {
+    width: 94%;
+    margin:50px auto;
+}

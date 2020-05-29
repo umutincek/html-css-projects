@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stil.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="sol" id="sol">
+        <img src="https://www.w3schools.com/w3images/profile_girl.jpg" alt="">
+    </div>
+
+    <div id="myMenu">
+        <span class="menu" onclick="close_myMenu()">
+            <i class="fa fa-remove"></i>
+         </span>
+        <ul>
+            <li>
+                <a href="#home" onclick="close_myMenu()">Home</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick="close_myMenu()">Portfolio</a>
+            </li>
+            <li>
+                <a href="#about" onclick="close_myMenu()">About</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="close_myMenu()">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="sag" id="sag">
+        <span class="menu" onclick="open_myMenu()">
+           <i class="fa fa-bars"></i>
+        </span>
+        <div class="home" id="home">
+            <h1>Jane Doe</h1>
+            <p>Photographer and Web Designer.</p>
+            <button>
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <h2>My Portfolio</h2>
+            <hr>
+            <div class="p_sol">
+                <img src="https://www.w3schools.com/w3images/wedding.jpg">
+                <img src="https://www.w3schools.com/w3images/rocks.jpg">
+                <img src="https://www.w3schools.com/w3images/sailboat.jpg">
+            </div>
+            <div class="p_sag">
+                <img src="https://www.w3schools.com/w3images/underwater.jpg">
+                <img src="https://www.w3schools.com/w3images/chef.jpg">
+                <img src="https://www.w3schools.com/w3images/wedding.jpg">
+                <img src="https://www.w3schools.com/w3images/p6.jpg">
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h2>About</h2>
+            <hr>
+            <p>
+                Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3>My Skills</h3>
+            <br>
+            <h4>Photography</h4>
+            <div class="a_box">
+                <div class="b_95">
+                    95%
+                </div>
+            </div>
+            <h4>Web Design</h4>
+            <div class="a_box">
+                <div class="b_85">
+                    85%
+                </div>
+            </div>
+            <h4>Photoshop</h4>
+            <div class="a_box">
+                <div class="b_80">
+                    80%
+                </div>
+            </div>
+            <div class="a_text">
+                <span style="font-size: x-large;">14+</span><br>
+                Partners
+            </div>
+            <div class="a_text">
+                <span style="font-size: x-large;">55+</span><br>
+                Projects Done
+            </div>
+            <div class="a_text">
+                <span style="font-size: x-large;">89+</span><br>
+                Happy Clients
+            </div>
+            <div class="a_text">
+                <span style="font-size: x-large;">150+</span><br>
+                Meetings
+            </div>
+            <button>
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+            <br>
+            <h3>My Reputation</h3>
+            <div class="a_img">
+                <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="">
+                <span style="font-size: x-large;">Chandler Bing.</span> <span>Web Designer.</span> <br><br>
+                <span>Jane Doe is just awesome. I am so happy to have met her!</span>     
+            </div>
+            <div class="a_img">
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+                <span style="font-size: x-large;">Chris Fox.</span> <span>CEO at Mighty Schools.</span> <br><br>
+                <span>Jane Doe saved us from a web disaster.</span>     
+            </div>
+            <div class="a_img">
+                <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="">
+                <span style="font-size: x-large;">Rebecca Flex.</span> <span>CEO at Company.</span> <br><br>
+                <span>No one is better than Jane Doe.</span>     
+            </div>
+            <br>
+            <h3>My Price</h3>
+            <div class="a_sell_left">
+                <ul>
+                    <li class="xl">Basic</li>
+                    <li class="sm">Web Design</li>
+                    <li class="sm">Photography</li>
+                    <li class="sm">5GB Storage</li>
+                    <li class="sm">Mail Support</li>
+                    <li class="xxl">
+                        <h2>$ 10</h2>
+                        <span>per month</span>
+                    </li>
+                    <li class="xbtn">
+                        <button>Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="a_sell_right">
+                <ul>
+                    <li class="xl" style="background: black;">Pro</li>
+                    <li class="sm">Web Design</li>
+                    <li class="sm">Photography</li>
+                    <li class="sm">50GB Storage</li>
+                    <li class="sm">Endless Support</li>
+                    <li class="xxl">
+                        <h2>$ 25</h2>
+                        <span>per month</span>
+                    </li>
+                    <li class="xbtn">
+                        <button>Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <br>
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+        </div>
+    </div>
+</body>
+</html>
