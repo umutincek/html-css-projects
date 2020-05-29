@@ -1,0 +1,195 @@
+* {
+    margin:0; padding:0; text-decoration: none; list-style-type: none;
+}
+
+h2 {
+    font-weight: normal;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+
+.ust {
+    position: fixed;
+    top:0;
+    background: white;
+    width: 100%;
+    visibility: visible;
+}
+.logo {
+    margin:20px;
+    float: left;
+    
+}
+    .logo a {
+        color:black;
+        padding: 10px;
+        letter-spacing: 5px;
+        font-size:20px;
+    }
+    .logo a:hover {
+        background:silver;
+        
+    }
+
+.menu {
+    float:right;
+    margin:20px;
+}
+    .menu ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+        .menu ul li a {
+            padding: 10px;
+            color: black;
+            letter-spacing: 5px;
+        }
+        .menu ul li a:hover {
+            background: silver;
+        }
+
+.resim {
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height:600px;
+}
+    .resim h1 {
+        color: black;
+        font-size:35px;
+        letter-spacing: 5px;
+        text-align: center;
+        line-height: 600px;
+        
+    }
+        .resim h1 span{
+            background: red;
+            padding:15px;
+        }
+
+.projects {
+    width: 96%;
+    margin:auto;
+    margin-top:50px;
+}
+
+
+    .p_box {
+        width: 22%;
+        overflow: auto;
+        float:left;
+        margin-left:27px;
+    }
+        .p_box img{
+            width:100%;
+        }
+        .p_box p {
+            position: relative;
+            top:40px;
+            padding:10px;
+            text-align: center;
+            font-size:18px;
+            background: black;
+            color:white;
+            width:140px;
+            box-sizing: border-box;
+        }
+
+.about {
+    width: 96%;
+    margin:auto;
+    margin-top:50px;
+}
+    .about p {
+        margin-top:10px;
+        font-size:19px;
+    }
+
+    .a_box {
+        width: 24%;
+        overflow: auto;
+        float: left;
+        margin-top: 40px;
+        margin-left:10px;
+    }
+        .a_box img {
+            width: 100%;
+            
+        }
+        .a_box h3 {
+            margin-top:5px;
+            font-size:24px;
+            font-weight: normal;
+        }
+        .a_box h4 {
+            color:gray;
+            font-weight: lighter;
+            margin-top:10px;
+            margin-bottom: 5px;
+        }
+        .a_box button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px 0px;
+            background: #d3d3d3;
+            border: none;
+            font-weight: bolder;
+            text-align: center;
+        }
+            .a_box button:hover {
+                background-color: gray;
+                cursor: pointer;
+            }
+
+.contact {
+    width:96%;
+    margin: auto;
+    margin-top:50px;
+}
+    .contact p {
+        margin-top:10px;
+        font-size:19px;
+    }
+    
+    .contact input{
+        width: 100%;
+        height: 35px;
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 15px;
+    }
+    .contact button {
+        padding: 12px 20px;
+        background: black;
+        color:white;
+        margin-top:20px;
+        border: none;
+    }
+        .contact button:hover {
+            background: silver;
+            color:black;
+            cursor: pointer;
+        }
+
+.altresim {
+    width: 96%;
+    margin:auto;
+    margin-top:50px;
+}
+    .altresim img {
+        width:100%;
+    }
+
+.altbilgi {
+    width:100%;
+    padding: 30px 0px;
+    text-align: center;
+    background: black;
+    color:white;
+    font-weight:normal;
+}
+        
+
+    
